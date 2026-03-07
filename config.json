@@ -1,69 +1,118 @@
 {
   "repo_name": "wydarzenia_psychiatryczne_on-line",
   "mode": "online",
+  "version": "final",
   "pages_base_url": "https://julescotard.github.io/wydarzenia_psychiatryczne_on-line/",
   "calendar_filename": "psychiatria.ics",
   "timezone": "Europe/Warsaw",
-  "horizon_days_past": 30,
-  "horizon_days_future": 730,
-  "keywords_online": [
-    "online",
+  "horizon_days_past": 60,
+  "horizon_days_future": 900,
+  "min_score_event": 3,
+  "min_score_link": 2,
+  "include_terms_strong": [
+    "psychiatr",
+    "psychicz",
+    "zdrowie psychiczne",
+    "psychogeriatr",
+    "psychofarmak",
+    "schizofren",
+    "psychoz",
+    "depres",
+    "dwubiegun",
+    "chad",
+    "uzależn",
+    "uzalezn",
+    "psychoterap",
+    "traum",
+    "ptsd",
+    "borderline",
+    "osobowoś",
+    "osobowos",
+    "adhd",
+    "autyzm",
+    "asd",
+    "neuroróżnor",
+    "neuroroznor",
+    "suicyd",
+    "samobój",
+    "ketamin",
+    "esketamin",
+    "tms",
+    "rtms",
+    "elektrowstrz"
+  ],
+  "include_terms_weak": [
+    "cns",
+    "neuro",
+    "mental health",
+    "zaburze",
+    "lęk",
+    "lek",
+    "sen",
+    "bezsen",
+    "psychedel",
+    "substancj"
+  ],
+  "exclude_terms": [
+    "kardiolog",
+    "chirurg",
+    "ortoped",
+    "urolog",
+    "nefrolog",
+    "diabetolog",
+    "dermatolog",
+    "otorynolaryng",
+    "stomatolog",
+    "anestezj",
+    "intensywna terapia",
+    "gastroenterolog",
+    "radiolog",
+    "onkolog",
+    "endokrynolog",
+    "położn",
+    "polozn",
+    "weteryn",
+    "weterynar"
+  ],
+  "online_strong": [
+    "vod",
+    "nagran",
+    "replay",
+    "odtwor",
     "transmisja",
     "stream",
-    "live",
-    "vod",
     "webinar",
-    "nagran",
-    "zapis",
-    "platform",
     "microsoft teams",
     "teams",
     "zoom",
+    "platforma",
     "e-learning",
     "e learning",
+    "zdalnie"
+  ],
+  "online_weak": [
+    "online",
     "on-line",
     "on line",
-    "wideo",
-    "video",
-    "dostęp do nagra",
-    "dostep do nagra",
-    "replay",
-    "odtworzenie",
-    "sesje nagrane",
-    "nagrania"
+    "hybryd",
+    "hybryda"
   ],
-  "keywords_offline": [
+  "offline_terms": [
     "stacjonarn",
-    "na żywo",
-    "na zywo",
-    "centrum kongres",
+    "miejsce",
+    "lokalizacja",
+    "venue",
     "hotel",
+    "centrum kongres",
     "aula",
-    "sala wykładowa",
-    "sala wykladowa",
-    "warszawa",
-    "kraków",
-    "krakow",
-    "poznań",
-    "poznan",
-    "wrocław",
-    "wroclaw",
-    "gdańsk",
-    "gdansk",
-    "katowice",
-    "łódź",
-    "lodz",
-    "lublin",
-    "zamość",
-    "zamosc",
-    "wisła",
-    "wisla",
-    "gniezno",
+    "sala",
+    "ul.",
+    "ulica",
     "konferencja w",
     "kongres w",
     "spotkanie w"
   ],
-  "keywords_cancelled": [
+  "cancelled_terms": [
     "odwołan",
     "odwol",
     "anulowan",
@@ -72,22 +121,49 @@
     "odwołane",
     "odwolane"
   ],
+  "cities": [
+    "Warszawa",
+    "Kraków",
+    "Krakow",
+    "Poznań",
+    "Poznan",
+    "Wrocław",
+    "Wroclaw",
+    "Gdańsk",
+    "Gdansk",
+    "Katowice",
+    "Łódź",
+    "Lodz",
+    "Lublin",
+    "Zamość",
+    "Zamosc",
+    "Wisła",
+    "Wisla",
+    "Gniezno",
+    "Jachranka",
+    "Sopot",
+    "Gdynia",
+    "Szczecin",
+    "Bydgoszcz",
+    "Toruń",
+    "Torun"
+  ],
   "sources": [
     {
       "name": "PTP (psychiatria.org.pl) – aktualności",
       "url": "https://psychiatria.org.pl/"
     },
     {
-      "name": "PTP (ptp.pl) – serwis",
+      "name": "PTP (ptp.pl)",
       "url": "https://ptp.pl/"
     },
     {
-      "name": "Medycyna Praktyczna – konferencje psychiatria",
-      "url": "https://www.mp.pl/konferencje/psychiatria/"
+      "name": "Szkolenia MP – Psychiatria",
+      "url": "https://szkolenia.mp.pl/mp/specjalizacje/specjalizacja.html?spec_id=21"
     },
     {
-      "name": "Szkolenia MP – wyszukiwarka",
-      "url": "https://szkolenia.mp.pl/"
+      "name": "Medycyna Praktyczna – konferencje: psychiatria",
+      "url": "https://www.mp.pl/konferencje/psychiatria/"
     },
     {
       "name": "Termedia – konferencje",
@@ -98,7 +174,7 @@
       "url": "https://unikonferencje.pl/"
     },
     {
-      "name": "Konsylium24 / Kompendium24 – wydarzenia",
+      "name": "Konsylium24 – wydarzenia",
       "url": "https://konsylium24.pl/kompendium24/wydarzenia"
     },
     {
@@ -114,14 +190,6 @@
       "url": "https://www.psychiatria.pl/"
     },
     {
-      "name": "Medforum – konferencje",
-      "url": "https://www.medforum.com.pl/konferencje/"
-    },
-    {
-      "name": "Medica Expert – konferencje",
-      "url": "https://konferencje.medicaexpert.pl/"
-    },
-    {
       "name": "Schizofrenia Forum",
       "url": "https://schizofreniaforum.pl/"
     },
@@ -130,60 +198,61 @@
       "url": "https://lubelskiespotkaniapsychiatryczne.pl/"
     },
     {
-      "name": "Wielkopolski Kongres Psychiatrii (Conferre)",
-      "url": "https://wkp.conferre.pl/"
+      "name": "Medica Expert – Łódzkie Dialogi Psychiatryczne",
+      "url": "https://konferencje.medicaexpert.pl/ldp/"
     },
     {
       "name": "Czwartki Psychiatryczne",
       "url": "https://www.czwartkipsychiatryczne.pl/"
     },
     {
-      "name": "NIL (Naczelna Izba Lekarska) – szkolenia",
+      "name": "NIL – szkolenia",
       "url": "https://nil.org.pl/dla-lekarzy/ksztalcenie/szkolenia"
     },
     {
-      "name": "UJ CM – jednostki/aktualności (psychiatria)",
-      "url": "https://www.uj.edu.pl/"
+      "name": "UJ CM",
+      "url": "https://cm-uj.krakow.pl/"
     },
     {
-      "name": "WUM – aktualności",
+      "name": "WUM",
       "url": "https://wum.edu.pl/"
     },
     {
-      "name": "GUMed – aktualności",
+      "name": "GUMed",
       "url": "https://gumed.edu.pl/"
     }
   ],
   "seed_event_urls": [
     "https://schizofreniaforum.pl/",
-    "https://www.psychomedic.edu.pl/neuroperspektywy-2026-i-ogolnopolski-kongres-neuroroznorodnosci",
-    "https://gojammin.pl/psych-2026-kontrowersje-w-psychiatrii-2026/",
+    "https://kazuistyka2026.medforum.pl/",
+    "https://konferencje.medicaexpert.pl/ldp/",
+    "https://unikonferencje.pl/konferencja/16659-iv-ogolnopolski-kongres-psychiatryczny",
+    "https://www.czwartkipsychiatryczne.pl/",
+    "https://lubelskiespotkaniapsychiatryczne.pl/",
+    "https://psychiatrianaswiecie.pl/",
+    "https://www.edukacjamedyczna.pl/konferencja/8362/xx-miedzynarodowy-kongres-psychiatria-medforum-2026.html",
     "https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJA,2857,41309.html",
     "https://www.termedia.pl/Konferencja-PSYCHIATRIA-W-POZ-2026-TRANSMISJA,2676,38169.html",
-    "https://konferencja.yesa.pl/produkt/online-kadra-medyczna/",
-    "https://lubelskiespotkaniapsychiatryczne.pl/",
-    "https://kazuistyka2026.medforum.pl/",
-    "https://konferencje.medicaexpert.pl/ldp-2026/",
-    "https://wkp2026.conferre.pl/",
-    "https://unikonferencje.pl/konferencja/16659-iv-ogolnopolski-kongres-psychiatryczny",
-    "https://www.edukacjamedyczna.pl/konferencja/8362/xx-miedzynarodowy-kongres-psychiatria-medforum-2026.html",
-    "https://www.czwartkipsychiatryczne.pl/"
+    "https://www.termedia.pl/Konferencja-PSYCHIATRIA-W-PYTANIACH-I-ODPOWIEDZIACH-TRANSMISJA,2592,36371.html",
+    "https://www.mp.pl/konferencje/psychiatria/2026/",
+    "https://sklep.podyplomie.pl/market/produkt/psychiatria-2026-xv-kongres-akademii-po-dyplomie.html",
+    "https://nil.org.pl/dla-lekarzy/ksztalcenie/szkolenia/konferencja-interna-dla-psychiatrow-psychiatria-dla-internistow-2026-gniezno",
+    "https://kursy.cmkp.edu.pl/"
   ],
   "discovery_pages": [
     "https://www.mp.pl/konferencje/psychiatria/",
     "https://www.mp.pl/konferencje/psychiatria/2026/",
+    "https://szkolenia.mp.pl/mp/specjalizacje/specjalizacja.html?spec_id=21",
     "https://www.psychiatraonline.pl/konferencje/",
     "https://www.termedia.pl/Konferencje",
     "https://unikonferencje.pl/",
-    "https://www.medforum.com.pl/konferencje/",
-    "https://konferencje.medicaexpert.pl/",
-    "https://nil.org.pl/dla-lekarzy/ksztalcenie/szkolenia",
-    "https://ptp.pl/",
+    "https://konsylium24.pl/kompendium24/wydarzenia",
     "https://psychiatria.org.pl/",
-    "https://www.psychiatria.pl/",
+    "https://ptp.pl/",
+    "https://nil.org.pl/dla-lekarzy/ksztalcenie/szkolenia",
+    "https://cm-uj.krakow.pl/",
     "https://wum.edu.pl/",
-    "https://gumed.edu.pl/",
-    "https://www.uj.edu.pl/"
+    "https://gumed.edu.pl/"
   ],
   "allowed_domains": [
     "psychiatria.org.pl",
@@ -196,21 +265,18 @@
     "podyplomie.pl",
     "psychiatraonline.pl",
     "psychiatria.pl",
-    "medforum.com.pl",
-    "konferencje.medicaexpert.pl",
     "schizofreniaforum.pl",
-    "psychomedic.edu.pl",
-    "edukacjamedyczna.pl",
-    "conferre.pl",
-    "yesa.pl",
     "lubelskiespotkaniapsychiatryczne.pl",
-    "gojammin.pl",
+    "konferencje.medicaexpert.pl",
+    "kazuistyka2026.medforum.pl",
+    "edukacjamedyczna.pl",
+    "psychiatrianaswiecie.pl",
     "nil.org.pl",
-    "oil.org.pl",
-    "oipip.pl",
-    "oizl.org.pl",
-    "uj.edu.pl",
+    "kursy.cmkp.edu.pl",
+    "cmkp.edu.pl",
+    "cm-uj.krakow.pl",
     "wum.edu.pl",
-    "gumed.edu.pl"
+    "gumed.edu.pl",
+    "sklep.podyplomie.pl"
   ]
 }
