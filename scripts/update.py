@@ -6,17 +6,30 @@ import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as dtparser
 
-UA = "Mozilla/5.0 (compatible; wydarzenia_psychiatryczne/1.1)"
-TIMEOUT = 30
+UA = "Mozilla/5.0 (compatible; wydarzenia_psychiatryczne/FINAL)"
+TIMEOUT = 35
 
-# Date patterns (PL numeric) + dateutil fallback
+PL_MONTHS = {
+    "stycznia": 1, "styczen": 1, "styczeń": 1, "styczniu": 1,
+    "lutego": 2, "luty": 2, "lutym": 2,
+    "marca": 3, "marzec": 3,
+    "kwietnia": 4, "kwiecien": 4, "kwiecień": 4,
+    "maja": 5, "maj": 5,
+    "czerwca": 6, "czerwiec": 6,
+    "lipca": 7, "lipiec": 7,
+    "sierpnia": 8, "sierpien": 8, "sierpień": 8,
+    "września": 9, "wrzesnia": 9, "wrzesien": 9, "wrzesień": 9,
+    "października": 10, "pazdziernika": 10, "październik": 10, "pazdziernik": 10,
+    "listopada": 11, "listopad": 11,
+    "grudnia": 12, "grudzien": 12, "grudzień": 12,
+}
+
 DATE_PATTERNS = [
-    # 13–14.03.2026 / 13-14.03.2026
     re.compile(r"(?P<d1>\d{1,2})\s*[–\-]\s*(?P<d2>\d{1,2})\s*\.\s*(?P<m>\d{1,2})\s*\.\s*(?P<y>20\d{2})"),
-    # 13.03.2026
     re.compile(r"(?P<d>\d{1,2})\s*\.\s*(?P<m>\d{1,2})\s*\.\s*(?P<y>20\d{2})"),
-    # 2026-03-13
     re.compile(r"(?P<y>20\d{2})[-/\.](?P<m>\d{1,2})[-/\.](?P<d>\d{1,2})"),
+    re.compile(r"(?P<d1>\d{1,2})\s*[–\-]\s*(?P<d2>\d{1,2})\s*(?P<mon>[A-Za-ząćęłńóśźżĄĆĘŁŃÓŚŹŻ]+)\s*(?P<y>20\d{2})", re.IGNORECASE),
+    re.compile(r"(?P<d>\d{1,2})\s*(?P<mon>[A-Za-ząćęłńóśźżĄĆĘŁŃÓŚŹŻ]+)\s*(?P<y>20\d{2})", re.IGNORECASE),
 ]
 
 def load_config(path="config.json"):
@@ -39,64 +52,48 @@ def is_allowed(url, allowed_domains):
     host = urlparse(url).netloc.lower().replace("www.","")
     return any(host == d or host.endswith("." + d) for d in allowed_domains)
 
-def discover_links(listing_url, html, allowed_domains):
-    soup = BeautifulSoup(html, "html.parser")
-    links = set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"].strip()
-        if href.startswith("#"):
-            continue
-        absu = urljoin(listing_url, href)
-        if not absu.lower().startswith(("http://","https://")):
-            continue
-        if not is_allowed(absu, allowed_domains):
-            continue
-        low = absu.lower()
-        # heuristic: keep likely event pages
-        if any(k in low for k in ["202","psychiatr","kongres","konferenc","warsztat","szkolen","webinar","cns","forum","spotkan","kurs"]):
-            links.add(absu.split("#")[0])
-    return links
-
-def detect_any(text, keywords):
+def score_psychiatry(text, cfg):
     t = text.lower()
-    return any(k in t for k in keywords)
+    score = 0
+    for k in cfg["include_terms_strong"]:
+        if k in t:
+            score += 3
+    for k in cfg["include_terms_weak"]:
+        if k in t:
+            score += 1
+    for k in cfg["exclude_terms"]:
+        if k in t:
+            score -= 3
+    if "psychiatr" in t:
+        score += 2
+    return score
 
-def extract_dates(text):
-    # Prefer explicit patterns
-    for pat in DATE_PATTERNS:
-        m = pat.search(text)
-        if not m:
-            continue
-        gd = m.groupdict()
-        if "d1" in gd:
-            d1 = int(gd["d1"]); d2 = int(gd["d2"]); mth = int(gd["m"]); y = int(gd["y"])
-            start = date(y, mth, d1)
-            end = date(y, mth, d2) + timedelta(days=1)
-            return start, end
-        d = int(gd["d"]); mth = int(gd["m"]); y = int(gd["y"])
-        start = date(y, mth, d)
-        return start, start + timedelta(days=1)
+def has_online_access(text, cfg):
+    t = text.lower()
+    if any(k in t for k in cfg["online_strong"]):
+        return True
+    if any(k in t for k in cfg["online_weak"]):
+        if any(x in t for x in ["udział", "uczestnict", "transmis", "na żywo", "live", "zapis", "nagran", "vod", "replay", "platform", "zdalnie"]):
+            return True
+    return False
 
-    # Fallback: try dateutil near a year token (20xx)
-    years = re.findall(r"(20\d{2})", text)
-    for y in years[:3]:
-        idx = text.find(y)
-        window = text[max(0, idx-60): idx+60]
-        try:
-            dt = dtparser.parse(window, dayfirst=True, fuzzy=True)
-            if 2000 <= dt.year <= 2100:
-                start = dt.date()
-                return start, start + timedelta(days=1)
-        except Exception:
-            continue
-    return None, None
+def has_offline_access(text, cfg):
+    t = text.lower()
+    if any(k in t for k in cfg["offline_terms"]):
+        return True
+    if any(c.lower() in t for c in cfg["cities"]):
+        return True
+    return False
 
-def extract_location(text):
-    # Simple heuristics
-    m = re.search(r"(Miejsce|Lokalizacja|Venue|Location)\s*[:\-]\s*([^\.]{3,160})", text, re.IGNORECASE)
+def detect_cancelled(text, cfg):
+    t = text.lower()
+    return any(k in t for k in cfg["cancelled_terms"])
+
+def extract_location(text, cfg):
+    m = re.search(r"(Miejsce|Lokalizacja|Venue|Location)\s*[:\-]\s*([^\.]{3,180})", text, re.IGNORECASE)
     if m:
         return m.group(2).strip()
-    for c in ["Warszawa","Kraków","Poznań","Wrocław","Gdańsk","Katowice","Łódź","Lublin","Zamość","Wisła","Gniezno","Sopot","Gdynia","Szczecin","Bydgoszcz","Toruń"]:
+    for c in cfg["cities"]:
         if c.lower() in text.lower():
             return c
     return ""
@@ -108,37 +105,102 @@ def title_from_html(html):
     h1 = soup.find("h1")
     if h1 and h1.get_text(strip=True):
         return h1.get_text(strip=True)
-    return "Wydarzenie psychiatryczne"
+    return "Wydarzenie"
 
 def clean_title(t):
     t = re.sub(r"\s+", " ", t).strip()
     t = re.sub(r"\s*[\|\-–]\s*.*$", "", t).strip()
-    return t[:140]
+    return t[:170]
 
-def build_event(url, html, cfg):
+def extract_dates(text):
+    for pat in DATE_PATTERNS:
+        m = pat.search(text)
+        if not m:
+            continue
+        gd = {k:v for k,v in m.groupdict().items() if v is not None}
+        if "mon" in gd:
+            mon = gd["mon"].lower()
+            mon = mon.replace("ą","a").replace("ę","e").replace("ł","l").replace("ń","n").replace("ó","o").replace("ś","s").replace("ź","z").replace("ż","z")
+            mon_num = PL_MONTHS.get(mon)
+            if not mon_num:
+                continue
+            y = int(gd["y"])
+            if "d1" in gd:
+                d1 = int(gd["d1"]); d2 = int(gd["d2"])
+                start = date(y, mon_num, d1)
+                end = date(y, mon_num, d2) + timedelta(days=1)
+                return start, end
+            d = int(gd["d"])
+            start = date(y, mon_num, d)
+            return start, start + timedelta(days=1)
+
+        if "d1" in gd:
+            d1 = int(gd["d1"]); d2 = int(gd["d2"]); mth = int(gd["m"]); y = int(gd["y"])
+            start = date(y, mth, d1)
+            end = date(y, mth, d2) + timedelta(days=1)
+            return start, end
+        d = int(gd["d"]); mth = int(gd["m"]); y = int(gd["y"])
+        start = date(y, mth, d)
+        return start, start + timedelta(days=1)
+
+    years = re.findall(r"(20\d{2})", text)
+    for y in years[:5]:
+        idx = text.find(y)
+        window = text[max(0, idx-120): idx+120]
+        try:
+            dt = dtparser.parse(window, dayfirst=True, fuzzy=True)
+            if 2000 <= dt.year <= 2100:
+                start = dt.date()
+                return start, start + timedelta(days=1)
+        except Exception:
+            continue
+    return None, None
+
+def discover_links(listing_url, html, cfg):
+    soup = BeautifulSoup(html, "html.parser")
+    links = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if href.startswith("#"):
+            continue
+        absu = urljoin(listing_url, href)
+        if not absu.lower().startswith(("http://","https://")):
+            continue
+        if not is_allowed(absu, cfg["allowed_domains"]):
+            continue
+        anchor = a.get_text(" ", strip=True)[:250]
+        candidate_text = (anchor + " " + absu).lower()
+        score = score_psychiatry(candidate_text, cfg)
+        if score < cfg["min_score_link"]:
+            continue
+        low = absu.lower()
+        if any(x in low for x in ["cookies", "polityka", "regulamin", "kontakt", "login"]):
+            continue
+        links.add(absu.split("#")[0])
+    return links
+
+def build_event(url, html, cfg, is_seed=False):
     text = normalize_text(html)
-    start, end = extract_dates(text)
+    title = clean_title(title_from_html(html))
+    combined = title + " " + text
+    score = score_psychiatry(combined, cfg)
+    if (not is_seed) and score < cfg["min_score_event"]:
+        return None
+    start, end = extract_dates(combined)
     if start is None:
         return None
+    if detect_cancelled(combined, cfg):
+        return {"url": url, "status":"CANCELLED", "title": title, "start": start.isoformat(), "end": end.isoformat(), "location": extract_location(combined, cfg), "score": score}
 
-    cancelled = detect_any(text, cfg["keywords_cancelled"])
-    if cancelled:
-        return {"url": url, "status": "CANCELLED", "title": clean_title(title_from_html(html)), "start": start.isoformat(), "end": end.isoformat(), "location": extract_location(text)}
-
-    online_hit = detect_any(text, cfg["keywords_online"])
-    offline_hit = detect_any(text, cfg["keywords_offline"])
-    loc = extract_location(text)
-
-    mode = cfg.get("mode","online")
-    if mode == "online":
-        if not online_hit:
+    loc = extract_location(combined, cfg)
+    if cfg.get("mode") == "online":
+        if not has_online_access(combined, cfg):
             return None
-    else: # offline
-        # Include if offline indicated OR location present. Exclude purely-online pages with no location and no offline hint.
-        if not (offline_hit or loc):
+    else:
+        if not has_offline_access(combined, cfg) and not loc:
             return None
 
-    return {"url": url, "status": "CONFIRMED", "title": clean_title(title_from_html(html)), "start": start.isoformat(), "end": end.isoformat(), "location": loc}
+    return {"url": url, "status":"CONFIRMED", "title": title, "start": start.isoformat(), "end": end.isoformat(), "location": loc, "score": score}
 
 def ics_escape(s):
     return s.replace("\\", "\\\\").replace("\n", "\\n").replace(";", "\\;").replace(",", "\\,")
@@ -180,16 +242,15 @@ def write_ics(events, out_path, calname, tzid):
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//wydarzenia_psychiatryczne//PL online/offline//PL",
+        "PRODID:-//wydarzenia_psychiatryczne//PL//FINAL",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         f"X-WR-TIMEZONE:{tzid}",
         f"X-WR-CALNAME:{calname}",
     ]
     lines += vtimezone_block(tzid)
-
     for ev in events:
-        uid = re.sub(r"[^a-zA-Z0-9]", "", ev["url"])[-28:] + "@wydarzenia-psychiatryczne"
+        uid = re.sub(r"[^a-zA-Z0-9]", "", ev["url"])[-32:] + "@wydarzenia-psychiatryczne"
         start = date.fromisoformat(ev["start"])
         end = date.fromisoformat(ev["end"])
         desc = (ev.get("location","") + "\n\nLink: " + ev["url"]).strip()
@@ -207,35 +268,18 @@ def write_ics(events, out_path, calname, tzid):
             "END:VEVENT",
         ]
     lines.append("END:VCALENDAR")
-    content = "\r\n".join(lines) + "\r\n"
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8", newline="") as f:
-        f.write(content)
+        f.write("\r\n".join(lines) + "\r\n")
 
 def write_events_html(events, out_path, title):
     rows = []
     for ev in events:
-        rows.append(f"<li><b>{ev['start']}</b> — <a href='{ev['url']}'>{ev['title']}</a>" + (f" <span style='color:#666'>({ev.get('location','')})</span>" if ev.get("location") else "") + "</li>")
-    body = "\n".join(rows) if rows else "<p>Brak znalezionych wydarzeń (spełniających filtry) w aktualnym horyzoncie.</p>"
-    html = f"""<!doctype html>
-<html lang="pl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title}</title>
-<style>
-body {{ font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; margin:24px; line-height:1.5; }}
-li {{ margin: 8px 0; }}
-a {{ word-break: break-word; }}
-</style>
-</head>
-<body>
-<h1>{title}</h1>
-<ul>
-{body}
-</ul>
-</body>
-</html>"""
+        loc = ev.get("location","")
+        loc_html = f" <span style='color:#666'>({loc})</span>" if loc else ""
+        score = ev.get("score", 0)
+        rows.append(f"<li><b>{ev['start']}</b> — <a href='{ev['url']}'>{ev['title']}</a>{loc_html} <span style='color:#999'>(score {score})</span></li>")
+    body = "\n".join(rows) if rows else "<p>Brak znalezionych wydarzeń w aktualnym horyzoncie.</p>"
+    html = f"<!doctype html><html lang='pl'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>{title}</title><style>body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;margin:24px;line-height:1.5}}li{{margin:8px 0}}a{{word-break:break-word}}</style></head><body><h1>{title}</h1><ul>{body}</ul></body></html>"
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
 
@@ -263,13 +307,12 @@ def main():
     prev_path = os.path.join("data","events.json")
     prev = load_prev(prev_path)
 
-    urls = set(cfg.get("seed_event_urls", []))
-
-    # Best-effort discovery
+    seed_urls = set(cfg.get("seed_event_urls", []))
+    urls = set(seed_urls)
     for page in cfg.get("discovery_pages", []):
         try:
             html = get(page)
-            urls |= discover_links(page, html, cfg["allowed_domains"])
+            urls |= discover_links(page, html, cfg)
         except Exception:
             continue
 
@@ -279,37 +322,27 @@ def main():
     for u in urls:
         try:
             html = get(u)
-            ev = build_event(u, html, cfg)
-            if not ev:
-                continue
-            # remove cancelled items from published list (user requirement)
-            if ev.get("status") == "CANCELLED":
+            ev = build_event(u, html, cfg, is_seed=(u in seed_urls))
+            if not ev or ev.get("status") == "CANCELLED":
                 continue
             gathered.append(ev)
         except Exception:
             continue
 
-    uniq = {e["url"]: e for e in gathered}
-    cur = list(uniq.values())
+    cur = list({e["url"]: e for e in gathered}.values())
 
-    # Apply rolling horizon to keep calendar manageable
     today = date.today()
-    past = int(cfg.get("horizon_days_past", 30))
-    future = int(cfg.get("horizon_days_future", 730))
-    min_d = today - timedelta(days=past)
-    max_d = today + timedelta(days=future)
-
+    min_d = today - timedelta(days=int(cfg.get("horizon_days_past", 60)))
+    max_d = today + timedelta(days=int(cfg.get("horizon_days_future", 900)))
     cur = [e for e in cur if (min_d <= date.fromisoformat(e["start"]) <= max_d)]
     cur.sort(key=lambda e: (e["start"], e["title"].lower()))
 
     added, changed, removed = diff_events(prev, cur)
 
-    os.makedirs("data", exist_ok=True)
     with open(prev_path, "w", encoding="utf-8") as f:
         json.dump(cur, f, ensure_ascii=False, indent=2)
 
-    mode = cfg.get("mode","online")
-    calname = "Wydarzenia psychiatryczne (online/VOD)" if mode=="online" else "Wydarzenia psychiatryczne (offline)"
+    calname = "Wydarzenia psychiatryczne (online/VOD)" if cfg.get("mode") == "online" else "Wydarzenia psychiatryczne (offline)"
     write_ics(cur, os.path.join("docs", cfg["calendar_filename"]), calname, cfg["timezone"])
     write_events_html(cur, os.path.join("docs","events.html"), calname)
 
@@ -329,8 +362,7 @@ def main():
                 md.append(f"  - jest: {a['start']} → {a['end']} | {a.get('location','')}")
             md.append("")
         if removed:
-            md += ["### Usunięte (np. odwołane / wypadły z horyzontu)"] + [f"- {e['title']} – {e['url']}" for e in removed] + [""]
-
+            md += ["### Usunięte"] + [f"- {e['title']} – {e['url']}" for e in removed] + [""]
     with open(os.path.join("data","changes.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(md).strip() + "\n")
 
