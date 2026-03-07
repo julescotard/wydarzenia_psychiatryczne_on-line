@@ -1,4 +1,133 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//wydarzenia_psychiatryczne//PL
+PRODID:-//wydarzenia_psychiatryczne//PL//FINAL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Europe/Warsaw
+X-WR-CALNAME:Wydarzenia psychiatryczne (online/VOD)
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+X-LIC-LOCATION:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:plzjazdyszkoleniashowhtmlid21768@wydarzenia-psychiatryczne
+DTSTAMP:20260307T195148Z
+SUMMARY:Konferencja: Interna dla psychiatrów\, psychiatria dla internistów 
+ 2026
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260115
+LOCATION:Poznań
+DESCRIPTION:Poznań\n\nLink: https://szkolenia.mp.pl/zjazdy/szkolenia/show.h
+ tml?id=21768
+URL:https://szkolenia.mp.pl/zjazdy/szkolenia/show.html?id=21768
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:WIEDZIACHTRANSMISJA259236371html@wydarzenia-psychiatryczne
+DTSTAMP:20260307T195148Z
+SUMMARY:PSYCHIATRIA W PYTANIACH I ODPOWIEDZIACH
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260201
+LOCATION:Warszawa
+DESCRIPTION:Warszawa\n\nLink: https://www.termedia.pl/Konferencja-PSYCHIATR
+ IA-W-PYTANIACH-I-ODPOWIEDZIACH-TRANSMISJA\,2592\,36371.html
+URL:https://www.termedia.pl/Konferencja-PSYCHIATRIA-W-PYTANIACH-I-ODPOWIEDZ
+ IACH-TRANSMISJA,2592,36371.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:httpwwwschizofreniaforumpl@wydarzenia-psychiatryczne
+DTSTAMP:20260307T195148Z
+SUMMARY:XXIX Schizofrenia Forum
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+LOCATION:Warszawa
+DESCRIPTION:Warszawa\n\nLink: http://www.schizofreniaforum.pl
+URL:http://www.schizofreniaforum.pl
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:httpsschizofreniaforumpl@wydarzenia-psychiatryczne
+DTSTAMP:20260307T195148Z
+SUMMARY:XXIX Schizofrenia Forum
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+LOCATION:Warszawa
+DESCRIPTION:Warszawa\n\nLink: https://schizofreniaforum.pl
+URL:https://schizofreniaforum.pl
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:httpsschizofreniaforumpl@wydarzenia-psychiatryczne
+DTSTAMP:20260307T195148Z
+SUMMARY:XXIX Schizofrenia Forum
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+LOCATION:Warszawa
+DESCRIPTION:Warszawa\n\nLink: https://schizofreniaforum.pl/
+URL:https://schizofreniaforum.pl/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:belskiespotkaniapsychiatrycznepl@wydarzenia-psychiatryczne
+DTSTAMP:20260307T195148Z
+SUMMARY:Home
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+LOCATION:Krakow
+DESCRIPTION:Krakow\n\nLink: https://lubelskiespotkaniapsychiatryczne.pl/
+URL:https://lubelskiespotkaniapsychiatryczne.pl/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:zebycinnaTRANSMISJA285741309html@wydarzenia-psychiatryczne
+DTSTAMP:20260307T195148Z
+SUMMARY:Psychiatria może być inna
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260426
+LOCATION:
+DESCRIPTION:Link: https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-
+ inna-TRANSMISJA\,2857\,41309.html
+URL:https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJ
+ A,2857,41309.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:AWPOZ2026TRANSMISJA267638169html@wydarzenia-psychiatryczne
+DTSTAMP:20260307T195148Z
+SUMMARY:Psychiatria w POZ 2026
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260510
+LOCATION:Kraków
+DESCRIPTION:Kraków\n\nLink: https://www.termedia.pl/Konferencja-PSYCHIATRIA
+ -W-POZ-2026-TRANSMISJA\,2676\,38169.html
+URL:https://www.termedia.pl/Konferencja-PSYCHIATRIA-W-POZ-2026-TRANSMISJA,2
+ 676,38169.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ttpskonferencjemedicaexpertplldp@wydarzenia-psychiatryczne
+DTSTAMP:20260307T195148Z
+SUMMARY:Łódzkie Dialogi Psychiatryczne
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+LOCATION:Kraków
+DESCRIPTION:Kraków\n\nLink: https://konferencje.medicaexpert.pl/ldp/
+URL:https://konferencje.medicaexpert.pl/ldp/
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
