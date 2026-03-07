@@ -1,0 +1,174 @@
+## Zmiany wykryte: 2026-03-07
+
+### Nowe
+- Konferencje naukowe: emocje w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/emocje
+- Konferencje naukowe: marketing w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/marketing
+- Konferencje naukowe: politologia w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/politologia
+- Wszystkie konferencje (2026-03-07) – https://konferencje.medicaexpert.pl/wszystkie/
+- Konferencje naukowe w Bielsku (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/bielsko-biala
+- Konferencje naukowe: popkultura w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/popkultura
+- Nauki medyczne (2026-03-12) – https://unikonferencje.pl/nauki-medyczne
+- Inżynieria produkcji (2026-03-07) – https://unikonferencje.pl/konferencje/inzynieria_produkcji
+- Konferencje naukowe: prawo w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/prawo
+- XVIII International Poznan Course in Upper Extremity Surgery (2026-03-07) – https://www.termedia.pl/Konferencja-XVIII-International-Poznan-Course-in-Intro,2768,39519.html
+- Konferencja (2026-12-10) – https://www.edukacjamedyczna.pl/konferencja/8362/xx-miedzynarodowy-kongres-psychiatria-medforum-2026.html
+- Technologia żywnoći i żywienia (2026-03-12) – https://unikonferencje.pl/konferencje/technologia_zywnosci_zywienia
+- Konferencje naukowe: architektura w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/architektura
+- Konferencje naukowe: interdyscyplinarny w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/interdyscyplinarny
+- Elektronika (2026-03-12) – https://unikonferencje.pl/konferencje/elektronika
+- Historia i Archeologia (2026-03-12) – https://unikonferencje.pl/konferencje/historia_archeologia
+- Pedagogika (2026-03-12) – https://unikonferencje.pl/konferencje/pedagogika
+- Konferencje naukowe: social media w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/social_media
+- Minimalnie Inwazyjna Chirurgia Miednicy Mniejszej (2026-03-07) – https://www.termedia.pl/Konferencja-Minimalnie-Inwazyjna-Chirurgia-Miednicy-Mniejszej-Intro,2881,41787.html
+- Konferencje naukowe w Ms Teams 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/ms_teams
+- Konferencje naukowe: wolność w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/wolnosc
+- Konferencje naukowe: Konferencja w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/konferencja
+- Konferencje naukowe: gospodarka w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/gospodarka
+- Budownictwo (2026-03-12) – https://unikonferencje.pl/konferencje/budownictwo
+- Konferencje naukowe: język w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/jezyk
+- Telekomunikacja (2026-03-12) – https://unikonferencje.pl/konferencje/telekomunikacja
+- Konferencje naukowe: literaturoznawstwo w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/literaturoznawstwo
+- Konferencja "Dystrofia mięśniowa Duchenne'a (2026-03-04) – https://gumed.edu.pl/pl/kalendarium/konferencja-dystrofia-miesniowa-duchennea-nowoczesne-standardy-kompleksowej-diagnostyki-oceny-leczenia-oraz-rehabilitacji
+- Religioznawstwo (2026-03-12) – https://unikonferencje.pl/konferencje/religioznawstwo
+- Konferencje naukowe: online w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/online
+- Konferencje naukowe: komunikowanie w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/komunikowanie
+- Upływające terminy zgłoszeń konferencji w 2026 (2026-03-07) – https://unikonferencje.pl/uplywajace-terminy-zgloszen
+- Konferencje naukowe: człowiek w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/czlowiek
+- Architektura i Urbanistyka (2026-03-12) – https://unikonferencje.pl/konferencje/architektura_urbanistyka
+- II Ogólnopolska Konferencja poświęcona zespołowi Angelmana „Między marzeniami a rzeczywistością. Od diagnozy do terapii" (2026-02-21) – https://gumed.edu.pl/pl/kalendarium/ii-ogolnopolska-konferencja-poswiecona-zespolowi-angelmana-miedzy-marzeniami-rzeczywistoscia-od-diagnozy-do-terapii
+- Konferencje naukowe w Warszawie 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/warszawa
+- Geodezja i Kartografia (2026-03-12) – https://unikonferencje.pl/konferencje/geodezja_kartografia
+- Pielęgniarstwo (2026-03-12) – https://unikonferencje.pl/konferencje/pielegniarstwo
+- Konferencje naukowe w Żorac 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/zory
+- Konferencje naukowe w Krakowie 2026 (2026-03-12) – https://unikonferencje.pl/konferencje-naukowe/krakow
+- Konferencje naukowe: interdyscyplinarność w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/interdyscyplinarnosc
+- Konferencje naukowe: sztuka w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/sztuka
+- Rolnictwo i leśnictwo (2026-03-12) – https://unikonferencje.pl/konferencje/rolnictwo_lesnictwo
+- Nauki wojskowe (2026-03-12) – https://unikonferencje.pl/konferencje/nauki_wojskowe
+- Home (2026-03-29) – https://lubelskiespotkaniapsychiatryczne.pl/
+- Organizacja i Zarządznie (2026-03-12) – https://unikonferencje.pl/konferencje/organizacja_zarzadzanie
+- Konferencje naukowe: socjologia w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/socjologia
+- Konferencje naukowe: władza w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/wladza
+- Kalendarz konferencji psychiatrycznych (2026-03-13) – https://www.psychiatraonline.pl/konferencje/
+- Nauki ścisłe i przyrodnicze (2026-03-12) – https://unikonferencje.pl/nauki-scisle_przyrodnicze
+- Konferencje naukowe w Gdańsku 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/gdansk
+- Psychiatria może być inna (2026-04-26) – https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJA,2857,41309.html
+- Konferencje naukowe w Toruniu 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/torun
+- Konferencje naukowe: literatura w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/literatura
+- Medycyna Wieku Rozwojowego (2026-03-12) – https://unikonferencje.pl/konferencje/medyczyna_wieku_rozwojowego
+- Konferencje Ginekologiczne (2026-03-07) – https://konferencje.medicaexpert.pl/ginekologia/
+- Psychologia (2026-03-12) – https://unikonferencje.pl/konferencje/psychologia
+- Konferencje naukowe: ekologia w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/ekologia
+- Konferencje naukowe: technologia w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/technologia
+- O synergii i autonomii podczas spotkania wspólnoty Fahrenheita. Relacja z debaty „Quo vadis FarU?” (2026-03-06) – https://gumed.edu.pl/pl/aktualnosci/uczelnia/o-synergii-i-autonomii-podczas-spotkania-wspolnoty-fahrenheita-relacja-z-debaty-quo-vadis-faru
+- Konferencje naukowe w Kielcach 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/kielce
+- Informatyka Teoretyczna (2026-03-12) – https://unikonferencje.pl/konferencje/informatyka_teoretyczna
+- Konferencje naukowe: ekonomia w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/ekonomia
+- Konferencje naukowe: serial w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/serial
+- Konferencje naukowe: pedagogika w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/pedagogika
+- Konferencje naukowe w On (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/online_ms_teams
+- Nauki inżynieryjne i techniczne (2026-03-12) – https://unikonferencje.pl/nauki-inzynieryjne_techniczne
+- Górnictwo i geologia inż. (2026-03-12) – https://unikonferencje.pl/konferencje/gornictwo
+- Metalurgia (2026-03-12) – https://unikonferencje.pl/konferencje/metalurgia
+- Konferencje naukowe w Szczecinie 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/szczecin
+- 18 edycja konferencji Zdrowe Kości i Stawy (2026-03-07) – https://www.termedia.pl/Konferencja-18-edycja-konferencji-Zdrowe-Kosci-Intro,2608,36697.html
+- Konferencje naukowe: językoznawstwo w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/jezykoznawstwo
+- Politologia (2026-03-12) – https://unikonferencje.pl/konferencje/politologia
+- Teologia (2026-03-12) – https://unikonferencje.pl/konferencje/teologia
+- Konferencje naukowe: religia w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/religia
+- Konferencje naukowe w 2026 (2026-03-12) – https://unikonferencje.pl/konferencje-naukowe
+- XXIX Schizofrenia Forum (2026-02-10) – http://www.schizofreniaforum.pl
+- Konferencje minione w 2026 roku (2026-03-07) – https://unikonferencje.pl/minione/2026
+- Konferencje naukowe: ai w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/ai
+- Inżynieria chemiczna (2026-03-07) – https://unikonferencje.pl/konferencje/inzynieria_chemiczna
+- MethoAkademia (2026-03-11) – https://www.termedia.pl/Konferencja-MethoAkademia-reumatologia-dla-wytrawnych--Intro,2604,36561.html
+- Konferencje naukowe w Nowym Sączu 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/nowy_sacz
+- Geografia i Oceanologia (2026-03-12) – https://unikonferencje.pl/konferencje/geografia_oceanologia
+- Finanse (2026-03-12) – https://unikonferencje.pl/konferencje/finanse
+- Konferencje naukowe w Piotrkowie Trybunalskim 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/piotrkow_trybunalski
+- CHOROBY WŁOSÓW DLA ZAAWANSOWANYCH cz. 2 (2026-03-16) – https://www.termedia.pl/Konferencja-CHOROBY-WLOSOW-DLA-ZAAWANSOWANYCH-cz--Intro,2955,43324.html
+- Budowa i Eksploatacja Maszyn (2026-03-12) – https://unikonferencje.pl/konferencje/budowa_ekspolatacja_maszyn
+- Transport (2026-03-12) – https://unikonferencje.pl/konferencje/transport
+- Konferencje naukowe w Online 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/online
+- Kulturoznawstwo (2026-03-07) – https://unikonferencje.pl/konferencje/kulturoznawstwo
+- Medycyna Kliniczna Zabiegowa (2026-03-12) – https://unikonferencje.pl/konferencje/nauki_kliniczne_zabiegowe
+- Konferencje naukowe: nauki społeczne w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/nauki_spoleczne
+- Astronomia (2026-03-12) – https://unikonferencje.pl/konferencje/astronomia
+- Konferencje naukowe: historia w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/historia
+- Konferencje naukowe w Katowicach 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/katowice
+- Konferencje naukowe 2026 (2026-03-07) – https://unikonferencje.pl/
+- Konferencje naukowe: film w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/film
+- Konferencje naukowe w Rzeszowie 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/rzeszow
+- Energetyka (2026-03-12) – https://unikonferencje.pl/konferencje/energetyka
+- Konferencje naukowe w Zoom 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/zoom
+- Ogólnopolska Konferencja Naukowa „Cyfrowa ewolucja (2026-02-17) – https://unikonferencje.pl/konferencja/17085-ogolnopolska-konferencja-naukowa-cyfrowa-ewolucja-sztuczna-inteligencja-dane-cyberbezpieczenstwo-instytut-bezpieczenstwa-i-rozwoju-miedzynarodowego-birm-i-akademia-humanistyczno-ekonomiczna-w-lodzi-ahe
+- Geologia, Geofizyka i Geochemia (2026-03-12) – https://unikonferencje.pl/konferencje/geologia_geofizyka_geochemia
+- Medycyna Kliniczna Niezabiegowa (2026-03-12) – https://unikonferencje.pl/konferencje/nauki_kliniczne_niezabiegowe
+- Uczestnictwo online w Konferencji Naukowo (2026-03-07) – https://konferencja.yesa.pl/produkt/online-kadra-medyczna/
+- Sztuki piękne (2026-03-12) – https://unikonferencje.pl/konferencje/nauki_o_sztuce
+- Konferencje naukowe: edukacja w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/edukacja
+- Konferencje naukowe: społeczeństwo w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/spoleczenstwo
+- Nowotwory układu pokarmowego (2026-03-07) – https://www.termedia.pl/Konferencja-Nowotwory-ukladu-pokarmowego-leczenie-Intro,2854,41241.html
+- Nauki humanistyczne (2026-03-12) – https://unikonferencje.pl/nauki-humanistyczne
+- Chemia (2026-03-12) – https://unikonferencje.pl/konferencje/chemia
+- Socjologia (2026-03-12) – https://unikonferencje.pl/konferencje/socjologia
+- Konferencje naukowe w Sosnowcu 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/sosnowiec
+- Językoznawstwo (2026-03-12) – https://unikonferencje.pl/konferencje/jezykoznawstwo
+- Konferencje naukowe: tożsamość w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/tozsamosc
+- Mechanika (2026-03-07) – https://unikonferencje.pl/konferencje/mechanika
+- Konferencje naukowe w Łodzi 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/lodz
+- Konferencje naukowe: religioznawstwo w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/religioznawstwo
+- Konferencje naukowe: kulturoznawstwo w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/kulturoznawstwo
+- Konferencje naukowe: nauka w 2026 r. (2026-03-12) – https://unikonferencje.pl/konferencje/tag/nauka
+- Technologie Informacyjne (IT) (2026-03-12) – https://unikonferencje.pl/konferencje/technologie_informacyjne
+- XXIX Schizofrenia Forum (2026-02-10) – https://schizofreniaforum.pl/
+- Psychiatria w POZ 2026 (2026-05-26) – https://www.termedia.pl/Konferencja-PSYCHIATRIA-W-POZ-2026-TRANSMISJA,2676,38169.html
+- Konferencje naukowe: bezpieczeństwo w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/bezpieczenstwo
+- Biologia (2026-03-12) – https://unikonferencje.pl/konferencje/biologia
+- Ekonomia (2026-03-12) – https://unikonferencje.pl/konferencje/ekonomia
+- Automatyka i Robotyka (2026-03-12) – https://unikonferencje.pl/konferencje/automatyka_robotyka
+- Literaturoznawstwo (2026-03-12) – https://unikonferencje.pl/konferencje/literaturoznawstwo
+- I MIĘDZYNARODOWA KONFERENCJA NAUKOWA Z CYKLU Osiągnięcia i wyzwania współczesnej nauki w perspektywie interdyscyplinarnej: Pedagogika (2026-02-10) – https://unikonferencje.pl/konferencja/17025-i-miedzynarodowa-konferencja-naukowa-z-cyklu-osiagniecia-i-wyzwania-wspolczesnej-nauki-w-perspektywie-interdyscyplinarnej-pedagogika-prawo-psychologia
+- Konferencje naukowe: sztuczna inteligencja w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/sztuczna_inteligencja
+- Media i Komunikowanie (2026-03-12) – https://unikonferencje.pl/konferencje/media_komunikowanie
+- Konferencje naukowe: psychologia w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/psychologia
+- Fizyka (2026-03-12) – https://unikonferencje.pl/konferencje/fizyka
+- Top Medical Trends 2026 (2026-03-07) – https://www.termedia.pl/Konferencja-Top-Medical-Trends-2026-Intro,2682,38297.html
+- Konferencje naukowe: muzyka w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/muzyka
+- Konferencje naukowe: polityka w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/polityka
+- Elektrotechnika (2026-03-12) – https://unikonferencje.pl/konferencje/elektrotechnika
+- Farmacja (2026-03-12) – https://unikonferencje.pl/konferencje/farmacja
+- Prawo i Administracja (2026-03-12) – https://unikonferencje.pl/konferencje/prawo_administracja
+- Konferencje naukowe w Wrocławiu 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/wroclaw
+- Konferencje naukowe: filozofia w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/filozofia
+- Konferencje naukowe: media w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/media
+- Nauki społeczne (2026-03-12) – https://unikonferencje.pl/nauki-spoleczne
+- Kultura Fizyczna (2026-03-12) – https://unikonferencje.pl/konferencje/kultura_fizyczna
+- Weterynaria (2026-03-12) – https://unikonferencje.pl/konferencje/Weterynaria
+- Bibliotekoznawstwo (2026-03-12) – https://unikonferencje.pl/konferencje/bibliotekoznawstwo
+- Stomatologia (2026-03-07) – https://unikonferencje.pl/konferencje/stomatologia
+- Biotechnologia (2026-03-12) – https://unikonferencje.pl/konferencje/biotechnologia
+- Konferencje naukowe w Poznaniu 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/poznan
+- Konferencje naukowe w Zielonej Górze 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/zielona_gora
+- Konferencje naukowe: reklama w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/reklama
+- Biologia Medyczna (2026-03-12) – https://unikonferencje.pl/konferencje/biologia_medyczna
+- Konferencje Dermatologiczne (2026-03-07) – https://konferencje.medicaexpert.pl/dermatologia/
+- Łódzkie Dialogi Psychiatryczne (2026-06-30) – https://konferencje.medicaexpert.pl/ldp/
+- Konferencje naukowe: Kultura w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/kultura
+- Ekologia i Ochrona Przyrody (2026-03-12) – https://unikonferencje.pl/konferencje/ekologia_ochrona_przyrody
+- Filozofia (2026-03-12) – https://unikonferencje.pl/konferencje/filozofia
+- Konferencje naukowe: sztuki piękne w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/sztuki_piekne
+- Inżynieria materiałowa (2026-03-07) – https://unikonferencje.pl/konferencje/inzynieria_materialowa
+- Konferencje naukowe w Opolu 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/opole
+- Konferencje naukowe 2026 (2026-03-07) – https://unikonferencje.pl/najnowsze-konferencje
+- Gdański Kongres Zdrowia Kobiet (2026-08-07) – https://gumed.edu.pl/pl/kalendarium/gdanski-kongres-zdrowia-kobiet
+- Zdrowie Publiczne (2026-03-12) – https://unikonferencje.pl/konferencje/zdrowie_publiczne
+- XXIX Schizofrenia Forum (2026-02-10) – https://schizofreniaforum.pl
+- Konferencje naukowe w Online (Microsoft Teams) 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/online_microsoft_teams
+- Konferencje naukowe w Stalowej Woli 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/stalowa_wola
+- Konferencje naukowe w Bydgoszczy 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/bydgoszcz
+- Konferencje naukowe: archeologia w 2026 r. (2026-03-07) – https://unikonferencje.pl/konferencje/tag/archeologia
+- Konferencje naukowe: Konferencja naukowa w 2026 r. (2026-03-12) – https://unikonferencje.pl/konferencje/tag/konferencja_naukowa
+- Konferencje naukowe w Lublinie 2026 (2026-03-07) – https://unikonferencje.pl/konferencje-naukowe/lublin
+- Matematyka (2026-03-12) – https://unikonferencje.pl/konferencje/matematyka
+- Dzień Otwarty WUM 2026 (2026-03-21) – https://wum.edu.pl/dzien-otwarty-wum-2026
