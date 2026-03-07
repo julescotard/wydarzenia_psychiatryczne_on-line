@@ -1,0 +1,216 @@
+{
+  "repo_name": "wydarzenia_psychiatryczne_on-line",
+  "mode": "online",
+  "pages_base_url": "https://julescotard.github.io/wydarzenia_psychiatryczne_on-line/",
+  "calendar_filename": "psychiatria.ics",
+  "timezone": "Europe/Warsaw",
+  "horizon_days_past": 30,
+  "horizon_days_future": 730,
+  "keywords_online": [
+    "online",
+    "transmisja",
+    "stream",
+    "live",
+    "vod",
+    "webinar",
+    "nagran",
+    "zapis",
+    "platform",
+    "microsoft teams",
+    "teams",
+    "zoom",
+    "e-learning",
+    "e learning",
+    "on-line",
+    "on line",
+    "wideo",
+    "video",
+    "dostęp do nagra",
+    "dostep do nagra",
+    "replay",
+    "odtworzenie",
+    "sesje nagrane",
+    "nagrania"
+  ],
+  "keywords_offline": [
+    "stacjonarn",
+    "na żywo",
+    "na zywo",
+    "centrum kongres",
+    "hotel",
+    "aula",
+    "sala wykładowa",
+    "sala wykladowa",
+    "warszawa",
+    "kraków",
+    "krakow",
+    "poznań",
+    "poznan",
+    "wrocław",
+    "wroclaw",
+    "gdańsk",
+    "gdansk",
+    "katowice",
+    "łódź",
+    "lodz",
+    "lublin",
+    "zamość",
+    "zamosc",
+    "wisła",
+    "wisla",
+    "gniezno",
+    "konferencja w",
+    "kongres w",
+    "spotkanie w"
+  ],
+  "keywords_cancelled": [
+    "odwołan",
+    "odwol",
+    "anulowan",
+    "cancelled",
+    "canceled",
+    "odwołane",
+    "odwolane"
+  ],
+  "sources": [
+    {
+      "name": "PTP (psychiatria.org.pl) – aktualności",
+      "url": "https://psychiatria.org.pl/"
+    },
+    {
+      "name": "PTP (ptp.pl) – serwis",
+      "url": "https://ptp.pl/"
+    },
+    {
+      "name": "Medycyna Praktyczna – konferencje psychiatria",
+      "url": "https://www.mp.pl/konferencje/psychiatria/"
+    },
+    {
+      "name": "Szkolenia MP – wyszukiwarka",
+      "url": "https://szkolenia.mp.pl/"
+    },
+    {
+      "name": "Termedia – konferencje",
+      "url": "https://www.termedia.pl/Konferencje"
+    },
+    {
+      "name": "Unikonferencje",
+      "url": "https://unikonferencje.pl/"
+    },
+    {
+      "name": "Konsylium24 / Kompendium24 – wydarzenia",
+      "url": "https://konsylium24.pl/kompendium24/wydarzenia"
+    },
+    {
+      "name": "Podyplomie.pl",
+      "url": "https://podyplomie.pl/"
+    },
+    {
+      "name": "PsychiatraOnline – konferencje",
+      "url": "https://www.psychiatraonline.pl/konferencje/"
+    },
+    {
+      "name": "Psychiatria.pl",
+      "url": "https://www.psychiatria.pl/"
+    },
+    {
+      "name": "Medforum – konferencje",
+      "url": "https://www.medforum.com.pl/konferencje/"
+    },
+    {
+      "name": "Medica Expert – konferencje",
+      "url": "https://konferencje.medicaexpert.pl/"
+    },
+    {
+      "name": "Schizofrenia Forum",
+      "url": "https://schizofreniaforum.pl/"
+    },
+    {
+      "name": "Lubelskie Spotkania Psychiatryczne",
+      "url": "https://lubelskiespotkaniapsychiatryczne.pl/"
+    },
+    {
+      "name": "Wielkopolski Kongres Psychiatrii (Conferre)",
+      "url": "https://wkp.conferre.pl/"
+    },
+    {
+      "name": "Czwartki Psychiatryczne",
+      "url": "https://www.czwartkipsychiatryczne.pl/"
+    },
+    {
+      "name": "NIL (Naczelna Izba Lekarska) – szkolenia",
+      "url": "https://nil.org.pl/dla-lekarzy/ksztalcenie/szkolenia"
+    },
+    {
+      "name": "UJ CM – jednostki/aktualności (psychiatria)",
+      "url": "https://www.uj.edu.pl/"
+    },
+    {
+      "name": "WUM – aktualności",
+      "url": "https://wum.edu.pl/"
+    },
+    {
+      "name": "GUMed – aktualności",
+      "url": "https://gumed.edu.pl/"
+    }
+  ],
+  "seed_event_urls": [
+    "https://schizofreniaforum.pl/",
+    "https://www.psychomedic.edu.pl/neuroperspektywy-2026-i-ogolnopolski-kongres-neuroroznorodnosci",
+    "https://gojammin.pl/psych-2026-kontrowersje-w-psychiatrii-2026/",
+    "https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJA,2857,41309.html",
+    "https://www.termedia.pl/Konferencja-PSYCHIATRIA-W-POZ-2026-TRANSMISJA,2676,38169.html",
+    "https://konferencja.yesa.pl/produkt/online-kadra-medyczna/",
+    "https://lubelskiespotkaniapsychiatryczne.pl/",
+    "https://kazuistyka2026.medforum.pl/",
+    "https://konferencje.medicaexpert.pl/ldp-2026/",
+    "https://wkp2026.conferre.pl/",
+    "https://unikonferencje.pl/konferencja/16659-iv-ogolnopolski-kongres-psychiatryczny",
+    "https://www.edukacjamedyczna.pl/konferencja/8362/xx-miedzynarodowy-kongres-psychiatria-medforum-2026.html",
+    "https://www.czwartkipsychiatryczne.pl/"
+  ],
+  "discovery_pages": [
+    "https://www.mp.pl/konferencje/psychiatria/",
+    "https://www.mp.pl/konferencje/psychiatria/2026/",
+    "https://www.psychiatraonline.pl/konferencje/",
+    "https://www.termedia.pl/Konferencje",
+    "https://unikonferencje.pl/",
+    "https://www.medforum.com.pl/konferencje/",
+    "https://konferencje.medicaexpert.pl/",
+    "https://nil.org.pl/dla-lekarzy/ksztalcenie/szkolenia",
+    "https://ptp.pl/",
+    "https://psychiatria.org.pl/",
+    "https://www.psychiatria.pl/",
+    "https://wum.edu.pl/",
+    "https://gumed.edu.pl/",
+    "https://www.uj.edu.pl/"
+  ],
+  "allowed_domains": [
+    "psychiatria.org.pl",
+    "ptp.pl",
+    "mp.pl",
+    "szkolenia.mp.pl",
+    "termedia.pl",
+    "unikonferencje.pl",
+    "konsylium24.pl",
+    "podyplomie.pl",
+    "psychiatraonline.pl",
+    "psychiatria.pl",
+    "medforum.com.pl",
+    "konferencje.medicaexpert.pl",
+    "schizofreniaforum.pl",
+    "psychomedic.edu.pl",
+    "edukacjamedyczna.pl",
+    "conferre.pl",
+    "yesa.pl",
+    "lubelskiespotkaniapsychiatryczne.pl",
+    "gojammin.pl",
+    "nil.org.pl",
+    "oil.org.pl",
+    "oipip.pl",
+    "oizl.org.pl",
+    "uj.edu.pl",
+    "wum.edu.pl",
+    "gumed.edu.pl"
+  ]
+}
