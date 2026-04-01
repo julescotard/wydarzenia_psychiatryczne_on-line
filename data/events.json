@@ -1,57 +1,21 @@
 [
   {
-    "url": "https://szkolenia.mp.pl/zjazdy/szkolenia/show.html?id=21768",
-    "status": "CONFIRMED",
-    "title": "Konferencja: Interna dla psychiatrów, psychiatria dla internistów 2026",
-    "start": "2026-01-14",
-    "end": "2026-01-15",
-    "location": "Poznań",
-    "score": 15
-  },
-  {
-    "url": "https://www.termedia.pl/Konferencja-PSYCHIATRIA-W-PYTANIACH-I-ODPOWIEDZIACH-TRANSMISJA,2592,36371.html",
-    "status": "CONFIRMED",
-    "title": "PSYCHIATRIA W PYTANIACH I ODPOWIEDZIACH",
-    "start": "2026-01-26",
-    "end": "2026-02-01",
-    "location": "Warszawa",
-    "score": 5
-  },
-  {
-    "url": "http://www.schizofreniaforum.pl",
-    "status": "CONFIRMED",
-    "title": "XXIX Schizofrenia Forum",
-    "start": "2026-02-10",
-    "end": "2026-02-11",
-    "location": "Warszawa",
-    "score": 33
-  },
-  {
-    "url": "https://schizofreniaforum.pl",
-    "status": "CONFIRMED",
-    "title": "XXIX Schizofrenia Forum",
-    "start": "2026-02-10",
-    "end": "2026-02-11",
-    "location": "Warszawa",
-    "score": 33
-  },
-  {
-    "url": "https://schizofreniaforum.pl/",
-    "status": "CONFIRMED",
-    "title": "XXIX Schizofrenia Forum",
-    "start": "2026-02-10",
-    "end": "2026-02-11",
-    "location": "Warszawa",
-    "score": 33
-  },
-  {
     "url": "https://lubelskiespotkaniapsychiatryczne.pl/",
     "status": "CONFIRMED",
     "title": "Home",
     "start": "2026-03-29",
     "end": "2026-03-30",
     "location": "Krakow",
-    "score": 44
+    "score": 47
+  },
+  {
+    "url": "https://unikonferencje.pl/konferencje/tag/zdrowie_psychiczne",
+    "status": "CONFIRMED",
+    "title": "Konferencje naukowe: zdrowie psychiczne w 2026 r.",
+    "start": "2026-04-16",
+    "end": "2026-04-17",
+    "location": "Warszawa",
+    "score": 4
   },
   {
     "url": "https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJA,2857,41309.html",
@@ -79,5 +43,32 @@
     "end": "2026-07-01",
     "location": "Kraków",
     "score": -10
+  },
+  {
+    "url": "http://www.schizofreniaforum.pl",
+    "status": "CONFIRMED",
+    "title": "XXIX Schizofrenia Forum",
+    "start": "2027-03-13",
+    "end": "2027-03-14",
+    "location": "",
+    "score": 7
+  },
+  {
+    "url": "https://schizofreniaforum.pl",
+    "status": "CONFIRMED",
+    "title": "XXIX Schizofrenia Forum",
+    "start": "2027-03-13",
+    "end": "2027-03-14",
+    "location": "",
+    "score": 7
+  },
+  {
+    "url": "https://schizofreniaforum.pl/",
+    "status": "CONFIRMED",
+    "title": "XXIX Schizofrenia Forum",
+    "start": "2027-03-13",
+    "end": "2027-03-14",
+    "location": "",
+    "score": 7
   }
 ]
