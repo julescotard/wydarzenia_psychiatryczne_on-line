@@ -24,22 +24,36 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:belskiespotkaniapsychiatrycznepl@wydarzenia-psychiatryczne
-DTSTAMP:20260401T101620Z
-SUMMARY:Home
-DTSTART;VALUE=DATE:20260329
-DTEND;VALUE=DATE:20260330
-LOCATION:Krakow
-DESCRIPTION:Krakow\n\nLink: https://lubelskiespotkaniapsychiatryczne.pl/
-URL:https://lubelskiespotkaniapsychiatryczne.pl/
+UID:wmedycynieipsychiatriidzieciecej@wydarzenia-psychiatryczne
+DTSTAMP:20260501T082620Z
+SUMMARY:Sztuczna inteligencja w psychiatrii dziecięcej
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+LOCATION:Kraków
+DESCRIPTION:Kraków\n\nLink: https://cm-uj.krakow.pl/ai-w-medycynie-i-psychi
+ atrii-dzieciecej/
+URL:https://cm-uj.krakow.pl/ai-w-medycynie-i-psychiatrii-dzieciecej/
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:zebycinnaTRANSMISJA285741309html@wydarzenia-psychiatryczne
+DTSTAMP:20260501T082620Z
+SUMMARY:Psychiatria może być inna
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+LOCATION:Poznań
+DESCRIPTION:Poznań\n\nLink: https://www.termedia.pl/Konferencja-Psychiatria
+ -moze-byc-inna-TRANSMISJA\,2857\,41309.html
+URL:https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJ
+ A,2857,41309.html
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:lkonferencjetagzdrowiepsychiczne@wydarzenia-psychiatryczne
-DTSTAMP:20260401T101620Z
+DTSTAMP:20260501T082620Z
 SUMMARY:Konferencje naukowe: zdrowie psychiczne w 2026 r.
-DTSTART;VALUE=DATE:20260416
-DTEND;VALUE=DATE:20260417
+DTSTART;VALUE=DATE:20260502
+DTEND;VALUE=DATE:20260503
 LOCATION:Warszawa
 DESCRIPTION:Warszawa\n\nLink: https://unikonferencje.pl/konferencje/tag/zdr
  owie_psychiczne
@@ -47,21 +61,19 @@ URL:https://unikonferencje.pl/konferencje/tag/zdrowie_psychiczne
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:zebycinnaTRANSMISJA285741309html@wydarzenia-psychiatryczne
-DTSTAMP:20260401T101620Z
-SUMMARY:Psychiatria może być inna
-DTSTART;VALUE=DATE:20260426
-DTEND;VALUE=DATE:20260426
-LOCATION:
-DESCRIPTION:Link: https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-
- inna-TRANSMISJA\,2857\,41309.html
-URL:https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJ
- A,2857,41309.html
+UID:belskiespotkaniapsychiatrycznepl@wydarzenia-psychiatryczne
+DTSTAMP:20260501T082620Z
+SUMMARY:Home
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260517
+LOCATION:Krakow
+DESCRIPTION:Krakow\n\nLink: https://lubelskiespotkaniapsychiatryczne.pl/
+URL:https://lubelskiespotkaniapsychiatryczne.pl/
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:AWPOZ2026TRANSMISJA267638169html@wydarzenia-psychiatryczne
-DTSTAMP:20260401T101620Z
+DTSTAMP:20260501T082620Z
 SUMMARY:Psychiatria w POZ 2026
 DTSTART;VALUE=DATE:20260526
 DTEND;VALUE=DATE:20260510
@@ -73,41 +85,8 @@ URL:https://www.termedia.pl/Konferencja-PSYCHIATRIA-W-POZ-2026-TRANSMISJA,2
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:ttpskonferencjemedicaexpertplldp@wydarzenia-psychiatryczne
-DTSTAMP:20260401T101620Z
-SUMMARY:Łódzkie Dialogi Psychiatryczne
-DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
-LOCATION:Kraków
-DESCRIPTION:Kraków\n\nLink: https://konferencje.medicaexpert.pl/ldp/
-URL:https://konferencje.medicaexpert.pl/ldp/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:httpwwwschizofreniaforumpl@wydarzenia-psychiatryczne
-DTSTAMP:20260401T101620Z
-SUMMARY:XXIX Schizofrenia Forum
-DTSTART;VALUE=DATE:20270313
-DTEND;VALUE=DATE:20270314
-LOCATION:
-DESCRIPTION:Link: http://www.schizofreniaforum.pl
-URL:http://www.schizofreniaforum.pl
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:httpsschizofreniaforumpl@wydarzenia-psychiatryczne
-DTSTAMP:20260401T101620Z
-SUMMARY:XXIX Schizofrenia Forum
-DTSTART;VALUE=DATE:20270313
-DTEND;VALUE=DATE:20270314
-LOCATION:
-DESCRIPTION:Link: https://schizofreniaforum.pl
-URL:https://schizofreniaforum.pl
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:httpsschizofreniaforumpl@wydarzenia-psychiatryczne
-DTSTAMP:20260401T101620Z
+DTSTAMP:20260501T082620Z
 SUMMARY:XXIX Schizofrenia Forum
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
