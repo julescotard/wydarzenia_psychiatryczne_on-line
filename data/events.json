@@ -1,32 +1,5 @@
 [
   {
-    "url": "https://cm-uj.krakow.pl/ai-w-medycynie-i-psychiatrii-dzieciecej/",
-    "status": "CONFIRMED",
-    "title": "Sztuczna inteligencja w psychiatrii dziecięcej",
-    "start": "2026-04-29",
-    "end": "2026-04-30",
-    "location": "Kraków",
-    "score": 10
-  },
-  {
-    "url": "https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJA,2857,41309.html",
-    "status": "CONFIRMED",
-    "title": "Psychiatria może być inna",
-    "start": "2026-05-01",
-    "end": "2026-05-02",
-    "location": "Poznań",
-    "score": 5
-  },
-  {
-    "url": "https://unikonferencje.pl/konferencje/tag/zdrowie_psychiczne",
-    "status": "CONFIRMED",
-    "title": "Konferencje naukowe: zdrowie psychiczne w 2026 r.",
-    "start": "2026-05-02",
-    "end": "2026-05-03",
-    "location": "Warszawa",
-    "score": 4
-  },
-  {
     "url": "https://lubelskiespotkaniapsychiatryczne.pl/",
     "status": "CONFIRMED",
     "title": "Home",
@@ -43,6 +16,51 @@
     "end": "2026-05-10",
     "location": "Kraków",
     "score": 5
+  },
+  {
+    "url": "https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJA,2857,41309.html",
+    "status": "CONFIRMED",
+    "title": "Psychiatria może być inna",
+    "start": "2026-06-01",
+    "end": "2026-06-02",
+    "location": "Poznań",
+    "score": 5
+  },
+  {
+    "url": "https://www.termedia.pl/Konferencja-ADHD-pod-kontrola-Jak-dobrac-Intro,3030,44840.html",
+    "status": "CONFIRMED",
+    "title": "ADHD pod kontrolą. Jak dobrać skuteczną terapię?",
+    "start": "2026-06-25",
+    "end": "2026-06-26",
+    "location": "Poznań",
+    "score": 3
+  },
+  {
+    "url": "https://konferencje.medicaexpert.pl/ldp/",
+    "status": "CONFIRMED",
+    "title": "Łódzkie Dialogi Psychiatryczne",
+    "start": "2026-06-30",
+    "end": "2026-07-01",
+    "location": "Kraków",
+    "score": -4
+  },
+  {
+    "url": "http://www.schizofreniaforum.pl",
+    "status": "CONFIRMED",
+    "title": "XXIX Schizofrenia Forum",
+    "start": "2027-03-13",
+    "end": "2027-03-14",
+    "location": "",
+    "score": 7
+  },
+  {
+    "url": "https://schizofreniaforum.pl",
+    "status": "CONFIRMED",
+    "title": "XXIX Schizofrenia Forum",
+    "start": "2027-03-13",
+    "end": "2027-03-14",
+    "location": "",
+    "score": 7
   },
   {
     "url": "https://schizofreniaforum.pl/",
