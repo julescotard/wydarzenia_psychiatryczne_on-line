@@ -18,57 +18,21 @@
     "score": 5
   },
   {
-    "url": "https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJA,2857,41309.html",
-    "status": "CONFIRMED",
-    "title": "Psychiatria może być inna",
-    "start": "2026-06-01",
-    "end": "2026-06-02",
-    "location": "Poznań",
-    "score": 5
-  },
-  {
-    "url": "https://www.termedia.pl/Konferencja-ADHD-pod-kontrola-Jak-dobrac-Intro,3030,44840.html",
-    "status": "CONFIRMED",
-    "title": "ADHD pod kontrolą. Jak dobrać skuteczną terapię?",
-    "start": "2026-06-25",
-    "end": "2026-06-26",
-    "location": "Poznań",
-    "score": 3
-  },
-  {
     "url": "https://konferencje.medicaexpert.pl/ldp/",
     "status": "CONFIRMED",
     "title": "Łódzkie Dialogi Psychiatryczne",
     "start": "2026-06-30",
     "end": "2026-07-01",
     "location": "Kraków",
-    "score": -4
+    "score": 9
   },
   {
-    "url": "http://www.schizofreniaforum.pl",
+    "url": "https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJA,2857,41309.html",
     "status": "CONFIRMED",
-    "title": "XXIX Schizofrenia Forum",
-    "start": "2027-03-13",
-    "end": "2027-03-14",
-    "location": "",
-    "score": 7
-  },
-  {
-    "url": "https://schizofreniaforum.pl",
-    "status": "CONFIRMED",
-    "title": "XXIX Schizofrenia Forum",
-    "start": "2027-03-13",
-    "end": "2027-03-14",
-    "location": "",
-    "score": 7
-  },
-  {
-    "url": "https://schizofreniaforum.pl/",
-    "status": "CONFIRMED",
-    "title": "XXIX Schizofrenia Forum",
-    "start": "2027-03-13",
-    "end": "2027-03-14",
-    "location": "",
-    "score": 7
+    "title": "Psychiatria może być inna",
+    "start": "2026-07-01",
+    "end": "2026-07-02",
+    "location": "Poznań",
+    "score": 5
   }
 ]
