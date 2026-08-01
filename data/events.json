@@ -1,37 +1,19 @@
 [
   {
-    "url": "https://lubelskiespotkaniapsychiatryczne.pl/",
-    "status": "CONFIRMED",
-    "title": "Home",
-    "start": "2026-05-14",
-    "end": "2026-05-17",
-    "location": "Krakow",
-    "score": 44
-  },
-  {
-    "url": "https://www.termedia.pl/Konferencja-PSYCHIATRIA-W-POZ-2026-TRANSMISJA,2676,38169.html",
-    "status": "CONFIRMED",
-    "title": "Psychiatria w POZ 2026",
-    "start": "2026-05-26",
-    "end": "2026-05-10",
-    "location": "Kraków",
-    "score": 5
-  },
-  {
     "url": "https://konferencje.medicaexpert.pl/ldp/",
     "status": "CONFIRMED",
     "title": "Łódzkie Dialogi Psychiatryczne",
     "start": "2026-06-30",
     "end": "2026-07-01",
-    "location": "Kraków",
+    "location": "Krakow",
     "score": 9
   },
   {
     "url": "https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJA,2857,41309.html",
     "status": "CONFIRMED",
     "title": "Psychiatria może być inna",
-    "start": "2026-07-01",
-    "end": "2026-07-02",
+    "start": "2026-08-01",
+    "end": "2026-08-02",
     "location": "Poznań",
     "score": 5
   }
