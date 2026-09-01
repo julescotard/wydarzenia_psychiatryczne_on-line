@@ -24,22 +24,11 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ttpskonferencjemedicaexpertplldp@wydarzenia-psychiatryczne
-DTSTAMP:20260801T083614Z
-SUMMARY:Łódzkie Dialogi Psychiatryczne
-DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
-LOCATION:Krakow
-DESCRIPTION:Krakow\n\nLink: https://konferencje.medicaexpert.pl/ldp/
-URL:https://konferencje.medicaexpert.pl/ldp/
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:zebycinnaTRANSMISJA285741309html@wydarzenia-psychiatryczne
-DTSTAMP:20260801T083614Z
+DTSTAMP:20260901T114222Z
 SUMMARY:Psychiatria może być inna
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260802
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
 LOCATION:Poznań
 DESCRIPTION:Poznań\n\nLink: https://www.termedia.pl/Konferencja-Psychiatria
  -moze-byc-inna-TRANSMISJA\,2857\,41309.html
