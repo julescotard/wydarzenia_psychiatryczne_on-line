@@ -1,11 +1,29 @@
 [
   {
+    "url": "https://unikonferencje.pl/konferencja/16659-iv-ogolnopolski-kongres-psychiatryczny",
+    "status": "CONFIRMED",
+    "title": "IV Międzynarodowy Kongres Psychiatryczny",
+    "start": "2026-09-24",
+    "end": "2026-09-25",
+    "location": "Warszawa",
+    "score": 32
+  },
+  {
     "url": "https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJA,2857,41309.html",
     "status": "CONFIRMED",
     "title": "Psychiatria może być inna",
-    "start": "2026-09-01",
-    "end": "2026-09-02",
+    "start": "2026-10-01",
+    "end": "2026-10-02",
     "location": "Poznań",
+    "score": 5
+  },
+  {
+    "url": "https://lubelskiespotkaniapsychiatryczne.pl/",
+    "status": "CONFIRMED",
+    "title": "Home",
+    "start": "2027-05-13",
+    "end": "2027-05-16",
+    "location": "Lublin",
     "score": 5
   }
 ]

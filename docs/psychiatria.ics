@@ -24,16 +24,40 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:golnopolskikongrespsychiatryczny@wydarzenia-psychiatryczne
+DTSTAMP:20261001T132128Z
+SUMMARY:IV Międzynarodowy Kongres Psychiatryczny
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+LOCATION:Warszawa
+DESCRIPTION:Warszawa\n\nLink: https://unikonferencje.pl/konferencja/16659-i
+ v-ogolnopolski-kongres-psychiatryczny
+URL:https://unikonferencje.pl/konferencja/16659-iv-ogolnopolski-kongres-psy
+ chiatryczny
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:zebycinnaTRANSMISJA285741309html@wydarzenia-psychiatryczne
-DTSTAMP:20260901T114222Z
+DTSTAMP:20261001T132128Z
 SUMMARY:Psychiatria może być inna
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
 LOCATION:Poznań
 DESCRIPTION:Poznań\n\nLink: https://www.termedia.pl/Konferencja-Psychiatria
  -moze-byc-inna-TRANSMISJA\,2857\,41309.html
 URL:https://www.termedia.pl/Konferencja-Psychiatria-moze-byc-inna-TRANSMISJ
  A,2857,41309.html
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:belskiespotkaniapsychiatrycznepl@wydarzenia-psychiatryczne
+DTSTAMP:20261001T132128Z
+SUMMARY:Home
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270516
+LOCATION:Lublin
+DESCRIPTION:Lublin\n\nLink: https://lubelskiespotkaniapsychiatryczne.pl/
+URL:https://lubelskiespotkaniapsychiatryczne.pl/
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
